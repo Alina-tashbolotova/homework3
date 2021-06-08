@@ -12,7 +12,7 @@
         android:layout_marginBottom="16dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintRight_toLeftOf="@+id/name"
+        app:layout_constraintRight_toLeftOf="@+id/txt_name"
         app:layout_constraintTop_toTopOf="parent" />
 
     <TextView
@@ -35,6 +35,6 @@
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintLeft_toRightOf="@id/land"
         app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/name" />
+        app:layout_constraintTop_toBottomOf="@+id/txt_name" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
